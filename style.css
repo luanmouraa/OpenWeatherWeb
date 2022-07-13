@@ -1,0 +1,83 @@
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Reset */
+html, body{
+    margin: 0;
+}
+
+/* Estilos Básicos*/
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Estilo da Página*/
+body {
+  background-color: rgb(136, 129, 129);
+  color:white ;
+}
+/* Criando as bordas*/
+.cartao1, .cartao2, .cartao3, .cartao4, .cartao5 {
+  border-radius: 12px;
+  background: rgba(199, 1, 189, 0.993);
+  width: 25%;
+  height: 230px;
+}
+/*Separando os cartões de cima*/
+.cartao1, .cartao2, .cartao3 {
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+/*Separando os cartões de baixo*/
+.cartao4, .cartao5 {
+  display: inline-block;
+}
+/*Separando os cartões de baixo */
+.cartao4{
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+.cartao5{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+/*Alinhando nome da cidade e data*/
+.dia, .data{
+  display: inline-block;
+  padding-top: 2em;
+}
+
+.dia{
+  padding-left: 2em;
+  font-weight: bold;
+}
+
+.data{
+  float: right;
+  padding-right: 2em;
+}
+/*Alinhando temperatura e imagem */
+.temperatura, .icone {
+  display: inline-block;
+}
+
+.temperatura{
+  padding-top: 10%;
+  padding-left: 30%;
+  font-size: 2em;
+  color: rgba(255, 0, 0, 0.925);
+}
+
+.icone{
+  float: right;
+  padding-right: 20%;
+}
+/*Alinhando o rodapé */
+.rodape{
+  padding-top: 20%;
+  padding-left: 50%;
+  font-size: smaller;
+  font-style: italic;
+}
